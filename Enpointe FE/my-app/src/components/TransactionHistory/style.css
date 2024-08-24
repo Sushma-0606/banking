@@ -1,0 +1,76 @@
+.container {
+  max-width: 40%;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 70%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 32%;
+  padding: 10px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.deposit {
+  background-color: #007bff;
+}
+
+.withdraw {
+  background-color: #ffc107;
+}
+
+.refresh {
+  background-color: #dc3545;
+}
+.refresh i {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.transaction-table th {
+  background-color: #f8f8f8;
+  font-weight: bold;
+}
+.modal-header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.modal-body p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.alert-danger {
+  margin-top: 10px;
+}

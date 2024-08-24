@@ -13,6 +13,7 @@ import AccountList from "./components/AccountList";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import CustSignup from "./components/CutomerSignup";
+import TransactionHistory from "./components/TransactionHistory/transactionHistory";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/custLogin" element={<CustLogin />} />
           <Route path="/bankerLogin" element={<BankerLogin />} />
           <Route path="/accountlist" element={<AccountList />} />
+          <Route path="/transactionHistory" element={<TransactionHistory />} />
           <Route
             path="/transfer"
             element={
