@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "sushma",
+    "password": "sushamYadav",
+    "database": "Bank",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "sushma",
+    "password": "sushamYadav",
+    "database": "Bank",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "sushma",
+    "password": "sushamYadav",
+    "database": "Bank",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
