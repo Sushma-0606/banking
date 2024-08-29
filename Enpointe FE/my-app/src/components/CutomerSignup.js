@@ -16,10 +16,11 @@ const CustSignup = () => {
     event.preventDefault();
     try {
       const response = await axios.post(
-        "http://localhost:8000/login/customer",
+        "http://localhost:8000/create",
         {
           username,
           password,
+          email,
         }
       );
 
